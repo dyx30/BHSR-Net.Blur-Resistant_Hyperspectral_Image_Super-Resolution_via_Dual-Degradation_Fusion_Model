@@ -2,6 +2,8 @@
 The official code for BHSR-Net: Blur-Resistant Hyperspectral Image Super-Resolution via Dual-Degradation Fusion Model
 
 ## 1. Introduction
+This work has been published on IEEE Transactions on Image Processing, 2026.
+
 The deep unfolding network represents a promising research avenue in fusion-based hyperspectral image super-resolution (HSI-SR). However, most current deep unfolding methodologies are anchored in idealized observation models, which overlook the degradation of the multispectral image (MSI), hindering their SR performance and practical applicability.
 
 To address this problem, this paper establishes a novel Dual-Degradation Fusion (D$^{2}$-Fusion) model, which incorporates both HSI degradation and MSI blurring into the HSI-SR modelling process. Subsequently, we apply the second-order semismooth Newton algorithm to solve the optimization problem in the D$^{2}$-Fusion model. The solution steps are then mapped into an end-to-end trainable network, termed Blur-resistant Hyperspectral image Super-Resolution Network (BHSR-Net).
@@ -37,4 +39,14 @@ To reproduce the results presented in our paper, please follow these guidelines:
 * **Support**: If you encounter any issues, please feel free to open an issue or contact **yongxuan@buaa.edu.cn** directly for assistance.
 
 ## 4. Citation
-If you find our work helpful for your research, please cite our paper: Blur-Resistant Hyperspectral Image Super-Resolution via Dual-Degradation Fusion Model
+If you find our work helpful for your research, please cite our paper: 
+@ARTICLE{BHSR-Net-YongxuanDou-2026TIP,
+  author={Xu, Mai and Dou, Yongxuan and Deng, Xin and Zou, Xin and Shi, Zhenwei},
+  journal={IEEE Transactions on Image Processing}, 
+  title={Blur-Resistant Hyperspectral Image Super-Resolution via Dual-Degradation Fusion Model}, 
+  year={2026},
+  volume={35},
+  pages={8338-8353},
+  keywords={Superresolution;Modeling;Optimization;Strontium;Modules (abstract algebra);Hyperspectral imaging;Algorithms;Degradation;PSNR;Deblurring;Hyperspectral image super-resolution;multispectral and hyperspectral image fusion;deep unfolding network},
+  doi={10.1109/TIP.2026.3714832}}
+
